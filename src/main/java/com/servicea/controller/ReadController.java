@@ -18,7 +18,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/api/session")
+@RequestMapping("/api/service-a")
 public class ReadController {
 
 	@Autowired
